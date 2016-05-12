@@ -1,0 +1,108 @@
+body {
+	background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/swirl_pattern.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+* {
+    box-sizing: border-box;
+}
+button.myButton {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 27px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-top: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+button.shareButton {
+	background-color:#3498db;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #2980b9;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 27px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-top: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button:hover {
+	background-color:#5cbf2a;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+p.heading {
+	font-size: 30px;
+	font-weight: bold;
+	color: #ecf0f1;
+}
+p.timeout{
+	font-size: 30px;
+	font-weight: bold;
+}
+p.level{
+	font-size: 30px;
+}
+#play_div {
+	margin-top: 10%
+}
+
+.float {
+	float: left;
+	margin-right: 40px;
+}
+ .margin {
+ 	/*margin-top: 10%;*/
+    display: table;
+    margin: 0 auto;
+
+ }
+
+ .round{
+ 	border-radius: 20px;
+ }
+
+p {
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 5%;
+}
+
+#app{
+	margin-top: 8%;
+} 
+.main {
+    margin: auto;
+    width: 40%;
+    /*border:3px solid  #93E9EB;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    background-color: #3498db;
+
+}
+
